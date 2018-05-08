@@ -14,7 +14,8 @@
         "express": "4.15.3",
         "lodash": "4.17.4",
         "react": "15.6.1",
-        "react-dom": "15.6.1"
+        "react-dom": "15.6.1",
+        "styled-components": "^3.2.6"
     },
     "devDependencies": {
         "babel-core": "6.25.0",

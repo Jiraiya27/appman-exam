@@ -1,0 +1,73 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: ghostwhite;
+}
+
+.card {
+  width: 300px;
+  height: 400px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 40px 10px 10px;
+}
+
+.logo {
+  width: 180px;
+  align-self: center;
+}
+
+.form-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  > * {
+    margin: 5px 0;
+  }
+}
+
+.label {  
+  &.error {
+    color: red;
+  }
+}
+
+.input, input[type=password].input {
+  border-radius: 1rem;
+  border: 1px solid lightgray;
+  padding: 5px 15px;
+  outline: none;
+  &:focus {
+    border-color: #242526;
+  }
+}
+
+.button {
+  background-color: deepskyblue;
+  color: white;
+  border-radius: 5px;
+  padding: 20px;
+  width: 10em;
+  align-self: center;
+  border: none;
+}
+
+.card-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  .anchor {
+    color: deepskyblue;
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
